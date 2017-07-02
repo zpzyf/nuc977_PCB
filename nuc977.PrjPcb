@@ -1162,11 +1162,17 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=IO_VD33|NetColor=$00FF6E6E
-Net2=NetName=VD33|NetColor=$00FF6E6E
-Net3=NetName=USB_5V0|NetColor=$00FF6EFF
-Net4=NetName=VDD33|NetColor=$00FF6E6E
-Net5=NetName=VD50|NetColor=$00FF6EFF
+Net1=NetName=U0_RXD|NetColor=$006EFF6E
+Net2=NetName=U5_RXD|NetColor=$006EFF6E
+Net3=NetName=PB1|NetColor=$006EFF6E
+Net4=NetName=PB0|NetColor=$006EFF6E
+Net5=NetName=VD33|NetColor=$00FF6E6E
+Net6=NetName=I2C0_SDA|NetColor=$006EFF6E
+Net7=NetName=U5_TXD|NetColor=$006EFF6E
+Net8=NetName=U0_TXD|NetColor=$006EFF6E
+Net9=NetName=PE0|NetColor=$006EFF6E
+Net10=NetName=PE1|NetColor=$006EFF6E
+Net11=NetName=DDR_VD18|NetColor=$00FF6E6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=0|UseName=-1|InclAllRules=0
